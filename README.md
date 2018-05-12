@@ -1,4 +1,4 @@
-# Yak Yak
+# Yap Yap
 Open Source YikYak clone built in MeteorJS.
 
 This is a mini project to learn how to use MeteorJS framwork and mongodb.
@@ -9,10 +9,10 @@ http://yapyap.meteorapp.com/
 ![Alt Text](https://media.giphy.com/media/2xFZRMDNbn6tysDcaD/giphy.gif)
 
 
-## Building and running YakYak
+## Building and running YapYap
 Git clone the code into a directory
 ```
-cd YakYak
+cd YapYap
 ```
 For iOS:
 ```
