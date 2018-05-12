@@ -1,0 +1,21 @@
+<template name="yapItem">
+  <div class="container-fluid">
+    <div class="yaps-container">
+      <li class="list-group-item">
+        <a id="title" href="#">
+          <p class="break-el">{{yap}}</p>
+          <a class="btn cmt" href="{{pathFor 'yapPage'}}" style="color: #1E90FF; font-weight: 700;">{{commentsCount}} comments</a>
+          <a class="btn pull-right btn-small no" href="#">
+            <i class="fa fa-chevron-down"></i>
+          </a>
+          <p class="btn pull-right" style="color: #1E90FF; font-weight: 900;"> {{score}} </p>
+          <a class="btn pull-right btn-primary-small yes" href="#">
+            <i class="fa fa-chevron-up"></i>
+          </a>
+        </a>
+      </li>
+    </div>
+  </div>
+
+  <br />
+</template>

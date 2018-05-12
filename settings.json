@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://quocboy:minhquoc@ds117590.mlab.com:17590/yaps"
+    }
+  }
+}

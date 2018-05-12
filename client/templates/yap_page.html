@@ -1,0 +1,27 @@
+<template name="yapPage">
+    <div class="row">
+        <div class="side">
+          {{> yapsSubmit}}
+        </div>
+
+          <div class="main">
+              <h3 id="livefeed"><center>
+                  <span class="glyphicon glyphicon-sunglasses"></span>  
+                  &nbsp;Live feed of what people are saying around you&nbsp;
+                <span class="glyphicon glyphicon-sunglasses"></span>
+            </center></h3>
+              <br />
+            {{> yapItem}}
+            <div class="container-fluid">
+              {{#each comments}}
+                {{> commentItem}}
+              {{/each}}
+            </div> 
+            <div class="container-fluid col-lg-offset-2">
+            {{> commentSubmit}}
+          </div>
+          </div>
+
+        </div>
+
+</template>

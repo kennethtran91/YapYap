@@ -1,0 +1,23 @@
+<template name="yapsList">
+    <div class="row">
+        <div class="side">
+            {{> yapsSubmit}}
+        </div>
+        
+        <div class="main">
+            <h3 id="livefeed"><center>
+                <span class="glyphicon glyphicon-sunglasses"></span>  
+                &nbsp;Live feed of what people are saying around you&nbsp;
+              <span class="glyphicon glyphicon-sunglasses"></span>
+          </center></h3>
+            <br />
+            <ul>         
+                {{#each yaps}}
+                  <h3>{{> yapItem}}</h3>
+                {{/each}}
+              </ul>
+            <br />
+        </div>
+    </div>
+        
+</template>
